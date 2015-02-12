@@ -41,9 +41,9 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 .content {
 	padding:0 0.938rem;
 	margin: 0 auto;
@@ -94,10 +94,16 @@ div {
     cursor: pointer;
     color: #333333;
 }
-
+.content {
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+	
+}
 /**
 * Introduction Section
 */
+
 .Introduction {
 	background-image: url('/Users/AlexPerez/projects/start-up-landing-page-clone/images/first-background-copy.jpg');
 	background-position: center bottom;
@@ -127,17 +133,26 @@ div {
 
 .Introduction .big-button {
 	width: 9.688rem;
-	display: block;
-	margin: 0 auto;
-	color: white;
-	text-align: center;
-	margin-top: 1.563rem;
 	background-color: #f15a29;
+	border-color: #f15a29;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 16px 26px;
-	line-height: 1.33;
+	padding: 1rem 1.5rem;
+	color: white;
 	font-size: 1.125rem;
 
+}
+
+.content .cases {
+	text-align: center;
+
+}
+
+.cases h2 {
+	color: black;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
 }
