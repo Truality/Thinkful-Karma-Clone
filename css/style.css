@@ -141,11 +141,21 @@ body {
 	padding: 1rem 1.5rem;
 	color: white;
 	font-size: 1.125rem;
+	margin-top: 1.563rem;
 
 }
 
-.content .cases {
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+.cases .content {
+	margin-top: 7.875rem;
+    padding: none;
 	text-align: center;
+	color: #1d1e21;
 
 }
 
@@ -155,4 +165,5 @@ body {
 	font-weight: 300;
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
+	margin-top: 3rem;
 }
