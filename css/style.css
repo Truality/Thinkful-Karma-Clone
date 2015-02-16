@@ -47,8 +47,10 @@ body {
 .content {
 	padding:0 0.938rem;
 	margin: 0 auto;
-	min-width: 37.5rem;
+	width: 60%; 
+	text-align: center;
 }
+
 :focus {
 	outline: none;
 }
@@ -63,13 +65,14 @@ body {
 }
 
 .top-navigation > .content {
-    margin: 0 auto;
-    width: 970px;
+    /* margin: 0 auto;
+    width: 970px; */
     height: 4.375rem;
 }
 
 .top-navigation .logo {
 	height: 4.375rem;
+	margin-left: -18.75rem;
 }
 
 .top-navigation	.links {
@@ -94,12 +97,7 @@ body {
     cursor: pointer;
     color: #333333;
 }
-.content {
-	margin: 0 auto;
-	width: 60%;
-	text-align: center;
-	
-}
+
 /**
 * Introduction Section
 */
